@@ -5,11 +5,7 @@ import Home from './routes/home/home.component.jsx';
 import Authentication from './routes/sign-in/authentication.component';
 
 
-const Shop = () => {
-  return (
-    <h1>I am the shop component</h1>
-  )
-}
+import Shop from './routes/shop/shop.component';
 
 const App = () => {
   return (  
