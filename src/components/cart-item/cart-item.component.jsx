@@ -10,6 +10,12 @@ const CartItem = ({ cartItem }) => {
                 <span className='name'>{name}</span>
                 <span className='price'>{quantity} x ${price}</span>
             </div>
+
+    const { name, quantity } = cartItem;
+    return (
+        <div>
+            <h2>{name}</h2>
+            <span>{quantity}</span>
         </div>
     );
 };
